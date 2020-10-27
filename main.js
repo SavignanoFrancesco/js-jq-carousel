@@ -4,6 +4,74 @@ $( document ).ready(function() {
 
     $('.prev i').click(scrollLeft);
 
+    $('.bullets i:nth-of-type(1)').click(function(){
+        //salvo l'immagine corrente in una variabile
+        var current_img = $('img.active');
+        //salvo il bullet corrente in una variabile
+        var current_bullet = $('.bullets i.fas');
+
+        //rimuovo la classe active dall'immagine corrente
+        current_img.removeClass('active');
+        //svuoto il bullet corrente(fas = bullet pieno, far = bullet vuoto)
+        current_bullet.removeClass('fas');
+        current_bullet.addClass('far');
+
+        //attivo l'immagine relativa al bullet cliccato
+        $('.slides img:nth-of-type(1)').addClass('active');
+        $('.bullets i:nth-of-type(1)').addClass('fas');
+    });
+
+    $('.bullets i:nth-of-type(2)').click(function(){
+        //salvo l'immagine corrente in una variabile
+        var current_img = $('img.active');
+        //salvo il bullet corrente in una variabile
+        var current_bullet = $('.bullets i.fas');
+
+        //rimuovo la classe active dall'immagine corrente
+        current_img.removeClass('active');
+        //svuoto il bullet corrente(fas = bullet pieno, far = bullet vuoto)
+        current_bullet.removeClass('fas');
+        current_bullet.addClass('far');
+
+        //attivo l'immagine relativa al bullet cliccato
+        $('.slides img:nth-of-type(2)').addClass('active');
+        $('.bullets i:nth-of-type(2)').addClass('fas');
+    });
+
+    $('.bullets i:nth-of-type(3)').click(function(){
+        //salvo l'immagine corrente in una variabile
+        var current_img = $('img.active');
+        //salvo il bullet corrente in una variabile
+        var current_bullet = $('.bullets i.fas');
+
+        //rimuovo la classe active dall'immagine corrente
+        current_img.removeClass('active');
+        //svuoto il bullet corrente(fas = bullet pieno, far = bullet vuoto)
+        current_bullet.removeClass('fas');
+        current_bullet.addClass('far');
+
+        //attivo l'immagine relativa al bullet cliccato
+        $('.slides img:nth-of-type(3)').addClass('active');
+        $('.bullets i:nth-of-type(3)').addClass('fas');
+    });
+
+    //attivo l'immagine relativa al bullet cliccato
+    $('.bullets i:nth-of-type(4)').click(function(){
+        //salvo l'immagine corrente in una variabile
+        var current_img = $('img.active');
+        //salvo il bullet corrente in una variabile
+        var current_bullet = $('.bullets i.fas');
+
+        //rimuovo la classe active dall'immagine corrente
+        current_img.removeClass('active');
+        //svuoto il bullet corrente(fas = bullet pieno, far = bullet vuoto)
+        current_bullet.removeClass('fas');
+        current_bullet.addClass('far');
+
+        $('.slides img:nth-of-type(4)').addClass('active');
+        $('.bullets i:nth-of-type(4)').addClass('fas');
+    });
+
 });
 
 //__________FUNZIONI__________
