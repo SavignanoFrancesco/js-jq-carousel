@@ -34,7 +34,7 @@ $( document ).ready(function() {
             current_img.prev().addClass('active');
         //altrimenti
         }else{
-            //aggiungo la classe active all'ultima' immagine del blocco slides
+            //aggiungo la classe active all'ultima immagine del blocco slides
             $('.slides img:last-of-type').addClass('active');
         }
 

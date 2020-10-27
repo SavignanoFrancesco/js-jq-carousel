@@ -17,7 +17,7 @@ a{
     align-items: center;
 }
 
-.wrapper{
+.slider{
     height: 60%;
     width: 60%;
     border: 1px solid black;
@@ -49,6 +49,13 @@ a{
 
 .slides img.active{
     display: block;
+}
+
+.slider-bottom{
+    padding: 10px 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .next{
