@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: unset;
+}
+
 .external{
     height: 100vh;
     width: 100%;
@@ -33,7 +38,17 @@
     height: 100%;
     float: left;
     border: 1px solid black;
+}
 
+.slides img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.slides img.active{
+    display: block;
 }
 
 .next{
